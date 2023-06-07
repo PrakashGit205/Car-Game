@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    background-color: rgb(142, 142, 194);
+    width: 400px;
+    height: 200px;
+    margin-left: 380px;
+    /* position: absolute; */
+    /* left: 200px; */
+    
+}
+#balance{
+    display: inline-block;
+}

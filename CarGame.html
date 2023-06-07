@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Car Crash</title>
+</head>
+<link rel="stylesheet" href="CarGame.css">
+<body>
+        <div id="first">
+        </div>
+
+        <div id="second">
+            <img src="newTrain.png" alt="" id = "car1">
+            <audio src="sound1.mp3"  id="sound"></audio>
+            <!-- <img src="./accident.png" id = "accident"> -->
+        </div>
+        <button id="car1acc" onclick="MoveLeft()" style="margin-top: 100px;font-size: large;  margin-left: 20px; background-color: blueviolet;">Accelerator</button>
+        <button id="car1break"onclick = "slow1()" disabled style="margin-top: 100px;font-size: large;  margin-left: 20px; background-color: blueviolet;">Slow</button>
+
+        <div id="third">
+            <img src="newTrain.png" alt="" id = "car2">
+            <audio src="sound.mp3" class="sound"></audio>
+        </div>
+        <button id="car12but" onclick="MoveRight()" style="margin-left: 1800px; margin-top: 5px;font-size: large;background-color: blueviolet;">Accelerator</button>
+        <button id="car12break" onclick="slow2()" disabled style="margin-left: 1800px;margin-top: 5px;font-size: large;background-color: blueviolet;">Slow</button>
+
+        <script src="CarGame.js">
+
+        </script>
+</body>
+</html>

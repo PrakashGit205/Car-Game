@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#first {
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    height: 40px;
+    width: 100%;
+    background-color: rebeccapurple;
+
+}
+
+#second {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 1px;
+    /* margin-left: 200px; */
+}
+
+#third {
+    display: inline-block;
+    top: 150px;
+    left: 1800px;
+
+
+    position: absolute;
+}
+
+#car1 {
+    width: 120px;
+
+}
+
+#car2 {
+    width: 120px;
+}
+#accident{
+    width: 80px;
+}
